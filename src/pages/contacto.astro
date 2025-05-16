@@ -1,0 +1,9 @@
+---
+import EntryLayout from "@components/contacto/EntryLayout.astro";
+import { getIndex } from "@lib/contentParser";
+import type { ContactoEntry } from "@/types";
+
+const entry = await getIndex("contacto") as ContactoEntry;
+---
+
+<EntryLayout entry={entry} />
