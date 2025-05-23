@@ -1,6 +1,6 @@
 ---
-title: Portfolio
-description: Jane Doe's projects and programs.
+title: Proyectos Fundación Federico
+description: Proyectos realizados por la fundación federico
 
 projects:
   - title: "Conway's Game of Life"
