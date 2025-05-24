@@ -4,6 +4,7 @@ import Share from "@components/common/Share.astro";
 import { Image } from "astro:assets";
 import BaseLayout from "@components/base/BaseLayout.astro";
 import { upperHumanize, markdownify, slugify } from "@lib/textConverter";
+import Backbutton from "@components/common/backbutton.astro";
 
 import {
   FaRegClock,
@@ -38,7 +39,11 @@ const {
       <div class="row justify-center">
         <article class="lg:col-10 flex flex-wrap content-start">
           <!-- Title -->
-          <h1 set:html={title} class="p-2 col basis-full min-w-72" />
+          <!-- Título y botón en una sola línea -->
+          <div class="flex items-center justify-between w-full mb-2 mr-5">
+            <h1 set:html={title} class="p-2 min-w-72" />
+            <Backbutton />
+          </div>
           <!-- Cover Photo -->
           {
             image && (
