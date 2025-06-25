@@ -2,11 +2,11 @@
 title: Tenis de Mesa
 description: A moist, flavorful banana bread made with overripe bananas, perfect for breakfast or a snack.
 image: "@assets/recipes/area-deportiva.webp"
-author: jane-doe
-prepTime: 15
-cook_time: 60
-servings: 8
-diet: Vegetarian
+# author: jane-doe
+prepTime: +40 mesas construidas
+# cook_time: test
+# servings: 8
+# diet: Vegetarian
 
 ingredients:
   list:

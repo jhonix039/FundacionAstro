@@ -2,10 +2,10 @@
 title: Area Médica
 description: A vibrant, healthy stir-fry featuring crispy tofu and colorful vegetables, tossed in a savory sauce.
 image: "@assets/recipes/area-medica.webp"
-author: jane-doe
-prepTime: 40
-servings: 4
-diet: Vegan
+# author: jane-doe
+# prepTime: 40
+servings: +20 Premios Entregados
+# diet: Vegan
 
 ingredients:
   list:

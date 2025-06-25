@@ -11,6 +11,8 @@ import {
   FaRegUserCircle,
   FaUtensils,
   FaSeedling,
+  FaTrophy,
+  FaTableTennis,
 } from "react-icons/fa";
 
 interface Props {
@@ -42,7 +44,7 @@ const {
           <!-- Título y botón en una sola línea -->
           <div class="flex items-center justify-between w-full mb-2 mr-5">
             <h1 set:html={title} class="p-2 min-w-72" />
-            <Backbutton />
+            <Backbutton  />
           </div>
           <!-- Cover Photo -->
           {
@@ -79,8 +81,8 @@ const {
               {
                 prepTime && (
                   <div class="m-4">
-                    <FaRegClock className={"mr-2 -mt-1 inline-block"} />
-                    {prepTime + " minutes"}
+                    <FaTableTennis className={"mr-2 -mt-1 inline-block"} />
+                    {prepTime}
                   </div>
                 )
               }
@@ -88,8 +90,8 @@ const {
               {
                 servings && (
                   <div class="m-4">
-                    <FaUtensils className={"mr-2 -mt-1 inline-block"} />
-                    {servings === 1 ? "1 serving" : servings + " servings"}
+                    <FaTrophy  className={"mr-2 -mt-1 inline-block"} />
+                    {servings}
                   </div>
                 )
               }

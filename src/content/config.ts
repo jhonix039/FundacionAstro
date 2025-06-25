@@ -143,8 +143,8 @@ const recipes = defineCollection({
       image: image().optional(),
       imageAlt: z.string().default(""),
       author: reference("authors").optional(),
-      prepTime: z.number().optional(),
-      servings: z.number().optional(),
+      prepTime: z.string().optional(),
+      servings: z.string().optional(),
       diet: z.string().optional(),
       ingredients: z
         .object({
