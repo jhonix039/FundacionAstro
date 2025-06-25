@@ -4,6 +4,9 @@
   &-sm {
     @apply py-8 xl:py-12;
   }
+  &-no-top {
+    @apply pb-12 xl:pb-16;
+  }
 }
 
 // Container
