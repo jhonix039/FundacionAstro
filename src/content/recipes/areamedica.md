@@ -1,6 +1,6 @@
 ---
 title: Area Médica
-description: A vibrant, healthy stir-fry featuring crispy tofu and colorful vegetables, tossed in a savory sauce.
+description: En la Fundación Federico estimulamos la investigación y propiciamos la divulgación del conocimiento en el campo de la ortopedia, traumatología y afines. Nuestro proyecto médico está dirigido a médicos y residentes ortopedistas y estudiantes y profesionales del área de la salud.
 image: "@assets/recipes/area-medica.webp"
 # author: jane-doe
 # prepTime: 40

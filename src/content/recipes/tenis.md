@@ -1,6 +1,6 @@
 ---
 title: Tenis de Mesa
-description: A moist, flavorful banana bread made with overripe bananas, perfect for breakfast or a snack.
+description: Estimulamos la práctica del tenis de mesa como un medio para el desarrollo integral del ser humano a través de proyectos de formación y sana competencia
 image: "@assets/recipes/area-deportiva.webp"
 # author: jane-doe
 prepTime: +40 mesas construidas
